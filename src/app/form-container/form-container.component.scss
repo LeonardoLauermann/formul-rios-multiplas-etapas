@@ -1,0 +1,14 @@
+form {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+.conteudo {
+  padding: 2rem 4rem;
+  background: #ffffff26;
+  box-shadow: 0 8px 32px 0 #1f26875e;
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid #ffffff2e;
+}

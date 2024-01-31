@@ -1,0 +1,36 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  input,
+  button {
+    border-radius: 10px;
+    border-color: #ffffff2e;
+    background-color: #ffffff2e;
+  }
+  label {
+    font-size: 16px;
+    margin-right: 20px;
+    font-weight: 600;
+  }
+  .item-box {
+    display: flex;
+    align-items: centers;
+    justify-content: space-between;
+  }
+
+  input {
+    transition: 0.5s ease;
+    &:focus {
+      background-color: #ffffff88;
+    }
+  }
+
+  button {
+    width: 100%;
+    transition: 0.5s ease;
+    &:hover {
+      background-color: #ffffffd8;
+    }
+  }
+}

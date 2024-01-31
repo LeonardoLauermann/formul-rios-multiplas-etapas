@@ -1,0 +1,15 @@
+<div [formGroup]="form" class="formulario">
+  <div class="item-box">
+    <label>Endereço</label>
+    <input formControlName="address" />
+  </div>
+  <div class="item-box">
+    <label>Cidade</label>
+    <input formControlName="country" />
+  </div>
+
+  <div class="btns mt-2">
+    <button routerLink="../step-1">Voltar</button>
+    <button (click)="submit()">Enviar</button>
+  </div>
+</div>
