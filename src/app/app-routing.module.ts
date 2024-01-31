@@ -10,7 +10,6 @@ export const routes: Routes = [
         (module) => module.FormContainerModule
       ),
   },
-  { path: '**', pathMatch: 'full', redirectTo: 'form' },
 ];
 
 @NgModule({
